@@ -9,8 +9,8 @@ namespace WorkingWithString
         static void Main(string[] args)
         {
             string myString = " Ana are mere! ";
-            Console.WriteLine($"index of a:{myString.IndexOf('a')}");
-            Console.WriteLine($"last index of e:{myString.LastIndexOf('e')}");
+            //Console.WriteLine($"index of a:{myString.IndexOf('a')}");
+            //Console.WriteLine($"last index of e:{myString.LastIndexOf('e')}");
             string mere = myString.Substring(9, 4);
 
             string mere2 = myString.Substring(myString.IndexOf('m'), 4);
